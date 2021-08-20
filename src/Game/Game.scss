@@ -51,5 +51,16 @@ $crossline-color: #AF3D38;
            }
        }
     }
+}
 
+@media only screen and (max-width: 600px) {
+    .game {
+        .game-field {
+            .square {
+                width: 70px;
+                height: 70px;
+                font-size: 60px;
+            }
+        }
+    }
 }

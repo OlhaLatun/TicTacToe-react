@@ -59,3 +59,38 @@ $crossline-color: #AF3D38;
 }
 
 
+@media only screen and (max-width: 600px) {
+    .game-field {
+        .col-1 {
+            top: 105px;
+            right: 80px;
+        }
+
+        .col-2 {
+            right: 5px;
+            top: 105px;
+        }
+
+        .col-3 {
+            right: -70px;
+        }
+
+        .row-1 {
+            top: 35px;
+            left: 5px;
+        }
+
+        .row-2 {
+            top: 105px;
+        }
+
+        .row-3 {
+            top: 180px;
+        }
+
+        .d-1 {
+            top: 105px;
+            left: -30px;
+        }
+    }
+}
