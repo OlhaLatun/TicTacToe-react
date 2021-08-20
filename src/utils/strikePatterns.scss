@@ -1,0 +1,61 @@
+$crossline-color: #AF3D38;
+
+.game-field {
+    position: relative;
+
+        .sharable {
+            position: absolute;
+            width: 95%;
+            height: 10px;
+            background-color: $crossline-color;
+        }
+        
+        .col-1 {
+           @extend .sharable;
+            top: 150px;
+            right: 110px;
+            transform: rotate(90deg);
+            
+        }
+
+        .col-2 {
+            @extend .col-1;
+            right: 5px;
+        }
+
+        .col-3 {
+            @extend .col-1;
+            right: -100px;
+        }
+
+        .row-1 {
+            @extend .sharable;
+            top: 50px;
+            left: 10px;
+        }
+
+        .row-2 {
+            @extend .row-1;
+            top: 150px;
+        }
+
+        .row-3 {
+            @extend .row-1;
+            top: 250px;
+        }
+
+        .d-1 {
+            @extend .sharable;
+            width: 130%;
+            transform: rotate(45deg);
+            top: 150px;
+            left: -50px;
+        }
+
+        .d-2 {
+            @extend .d-1;
+            transform: rotate(-45deg);
+        }
+}
+
+
