@@ -29,7 +29,7 @@ export default function Game({players})  {
     if (winner === player2) {
         setScore2((prevState) => prevState + 1)
     }   
- }, [winner, step]) 
+ }, [winner, step, player1, player2]) 
 
 const onClick = (e) => {
     let i = +e.target.id
