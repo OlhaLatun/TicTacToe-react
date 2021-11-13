@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/OlhaLatun/TicTacToe-react/static/css/main.c3b682fd.chunk.css",
+    "main.js": "/OlhaLatun/TicTacToe-react/static/js/main.ba7b1ea8.chunk.js",
+    "main.js.map": "/OlhaLatun/TicTacToe-react/static/js/main.ba7b1ea8.chunk.js.map",
+    "runtime-main.js": "/OlhaLatun/TicTacToe-react/static/js/runtime-main.e182a83d.js",
+    "runtime-main.js.map": "/OlhaLatun/TicTacToe-react/static/js/runtime-main.e182a83d.js.map",
+    "static/js/2.c90b16b5.chunk.js": "/OlhaLatun/TicTacToe-react/static/js/2.c90b16b5.chunk.js",
+    "static/js/2.c90b16b5.chunk.js.map": "/OlhaLatun/TicTacToe-react/static/js/2.c90b16b5.chunk.js.map",
+    "index.html": "/OlhaLatun/TicTacToe-react/index.html",
+    "static/css/main.c3b682fd.chunk.css.map": "/OlhaLatun/TicTacToe-react/static/css/main.c3b682fd.chunk.css.map",
+    "static/js/2.c90b16b5.chunk.js.LICENSE.txt": "/OlhaLatun/TicTacToe-react/static/js/2.c90b16b5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e182a83d.js",
+    "static/js/2.c90b16b5.chunk.js",
+    "static/css/main.c3b682fd.chunk.css",
+    "static/js/main.ba7b1ea8.chunk.js"
+  ]
+}
